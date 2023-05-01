@@ -1,0 +1,24 @@
+<div class="container-table">
+    <table class="table-container">
+      <tr>
+        <th>ID</th>
+        <th>Precio</th>
+        <th>Placa</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Color</th>
+
+      </tr>
+      <tr *ngFor="let vehiculo of listVehiculos">
+        <td>{{ vehiculo.id }}</td>
+        <td>{{ vehiculo.precio }}</td>
+        <td>{{ vehiculo.placa}}</td>
+        <td>{{ vehiculo.marca }}</td>
+        <td>{{ vehiculo.modelo }}</td>
+        <td>{{ vehiculo.color }}</td>
+
+      </tr>
+
+
+    </table>
+  </div>

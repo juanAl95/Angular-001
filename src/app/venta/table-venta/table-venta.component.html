@@ -1,0 +1,20 @@
+<div class="container-table">
+    <table class="table-container">
+      <tr>
+        <th>ID</th>
+        <th>Fecha</th>
+        <th>Valor</th>
+
+      </tr>
+
+      <tr *ngFor="let ventas of listVentas">
+        <td>{{ ventas.id }}</td>
+        <td>{{ ventas.fecha }}</td>
+        <td>{{ ventas.valor }}</td>
+
+      </tr>
+
+
+    </table>
+  </div>
+

@@ -1,0 +1,16 @@
+<div class="container-table">
+    <table class="table-container">
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Direccion</th>
+      </tr>
+
+      <tr *ngFor="let concesionarios of listConcesionarios">
+        <td>{{concesionarios.id}} </td>
+        <td>{{concesionarios.nombre_sede}} </td>  
+        <td>{{concesionarios.direccion}} </td>
+      </tr>
+
+    </table>
+  </div>
